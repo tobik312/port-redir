@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #Config file delimiter
-IFS='; '
+IFS='; ';
 
 echo "Set port's config"
 #Load and set port's config from file
