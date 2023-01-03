@@ -45,4 +45,4 @@ Apply configuration file ex.:
 :8080; ipInsideVpn:80; tcp
 ```
 
-Now you can get direct access to services behind your VPN on docker host machine.
+Now you can get direct access to services via your VPN on docker host machine.
