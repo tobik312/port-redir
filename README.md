@@ -28,11 +28,11 @@ version: '3'
 services:
   vpn-client:
     ...
-  ports:
-    - '80:8080'
+    ports:
+      - '80:8080'
 
   port-redir:
-    image: port-redir:latest
+    image: tobik312/port-redir:latest
     network_mode: service:vpn-client
     #Map our config file
     volumes:
